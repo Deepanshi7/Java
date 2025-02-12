@@ -1,6 +1,10 @@
+import java.util.Scanner;
 public class today {
     public static void main(String args[]){
-    String s="hello";
-    System.out.println(s);
+       Scanner sc = new Scanner(System.in);
+       String first = sc.nextLine();
+       
+        sc.close();
+        System.out.println(first);
     }
 }
